@@ -5,7 +5,6 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Data;
-using System.Data.SqlClient;
 using System.Net.Http;
 using System.Web.Http;
 using System.Net.Http.Headers;
@@ -14,7 +13,6 @@ using System.Configuration;
 using System.Net;
 using System.Threading;
 using System.Threading.Tasks;
-using System.Security.Cryptography;
 using System.Text;
 using System.IO;
 
