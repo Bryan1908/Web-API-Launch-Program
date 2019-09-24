@@ -20,8 +20,9 @@ namespace ExtProgramForWebAPI
 {
     public partial class Home : System.Web.UI.Page
     {
-        // Link to your API project.
-        static string apiLink = "http://localhost:24497/api/";
+        // Link to your API project. Include the localhost address along with the port number here followed by '/api'
+        // e.g. http://localhost:2000/api
+        static string apiLink = "";
 
         // This triggers the DELETE function in the API.
         public void deleteDataRequest()
